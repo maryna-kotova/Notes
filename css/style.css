@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	min-height: 100vh;	
+	background: linear-gradient(135deg, #feccb1 0%,#ea5507 35%,#ea5507 35%,#f17432 74%,#fb955e 100%);background-color: #111;	
+}
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+}
+#input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+#add{    
+	width: 50px; 
+	height: 50px;   
+	margin: 0.25rem;
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 50px;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+	color: #EA5507;
+    background: white;
+    cursor: pointer;
+    transition:  all 0.3s ease; 
+}
+#add:hover{
+	background: #EA5507;
+    color: white;
+}
+#allStikers{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+.newNote{
+	width: 10rem;
+	min-height: 10rem;
+	margin: 1rem;
+	padding: 0.5rem;	
+	font-size: 1.1rem;
+	font-weight: 500;
+	background-color: white;
+	color: orangered;
+	transform: rotateZ(-5deg);
+    box-shadow: 3px 3px 20px 0px rgb(59, 59, 59);
+	position: relative;
+	overflow-wrap: break-word;
+}
+.remove{
+	width: 1.5rem;
+    height: 1.5rem;  
+    font-size: 1rem;  
+    text-align: center;
+    background: #EA5507;
+    color: white;
+    border: none;  
+    border-radius: 1.5rem;  
+    cursor: pointer;     
+	outline: none;
+	position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0.5rem, -0.5rem); 	
+}
